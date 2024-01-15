@@ -8,9 +8,9 @@ NRP     :
 Pengumpulan tugas dilakukan dengan cara seperti berikut:
 
 - Fork repositori ini
-- Clone repositori ke local
 - Membuat workspace dengan cara ```mkdir -p {nama-workspace}/src```
 - Navigasikan ke```{nama-workspace}/src``` dengan cara ```cd {nama-workspace}/src```
+- Clone repositori ke local
 -  Mulai membuat package dengan nama bebas sesuai penugasan, sebagai contoh
     - ```ros2 pkg create --build-type ament_cmake {nama-package}``` (CPP)
     - ```ros2 pkg create --build-type ament_python {nama-package}``` (Python)
