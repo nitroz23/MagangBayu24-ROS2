@@ -2,8 +2,8 @@
 # Magang Bayucaraka 2024 - ROS2
 
 **Identitas Peserta**\
-Nama    : \
-NRP     : 
+Nama    : MUHAMMAD ZIA ALHAMBRA\
+NRP     : 5024231059
 
 Pengumpulan tugas dilakukan dengan cara seperti berikut:
 
