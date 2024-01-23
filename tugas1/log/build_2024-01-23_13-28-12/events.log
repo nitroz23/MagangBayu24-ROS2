@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000237] (tugas1_cpp) JobQueued: {'identifier': 'tugas1_cpp', 'dependencies': OrderedDict()}
+[0.000270] (tugas1_cpp) JobStarted: {'identifier': 'tugas1_cpp'}
+[0.100934] (-) TimerEvent: {}
+[0.119860] (tugas1_cpp) JobProgress: {'identifier': 'tugas1_cpp', 'progress': 'cmake'}
+[0.119957] (tugas1_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas1/src/tugas1_cpp', '-DCMAKE_INSTALL_PREFIX=/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas1/install/tugas1_cpp'], 'cwd': '/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas1/build/tugas1_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'llnitroz23ll'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1610'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/llnitroz23ll'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1424'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1aff28b8e06166dbac19652865af5818'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'llnitroz23ll'), ('JOURNAL_STREAM', '8:43971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'llnitroz23ll'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/llnitroz23llPC:@/tmp/.ICE-unix/1650,unix/llnitroz23llPC:/tmp/.ICE-unix/1650'), ('INVOCATION_ID', '6b0a1b5dc51f4132a8771db32ca032d6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/29e852cb_c9d7_4fcc_9e75_8391fabcc117'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas1/build/tugas1_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1aff28b8e06166dbac19652865af5818'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.201168] (-) TimerEvent: {}
+[0.284789] (tugas1_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.301239] (-) TimerEvent: {}
+[0.401595] (-) TimerEvent: {}
+[0.438269] (tugas1_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.445068] (tugas1_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.501725] (-) TimerEvent: {}
+[0.517366] (tugas1_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.518574] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.583590] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.594705] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.595154] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.597932] (tugas1_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.601825] (-) TimerEvent: {}
+[0.672003] (tugas1_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.672984] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701987] (-) TimerEvent: {}
+[0.754221] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.765062] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.765555] (tugas1_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.768631] (tugas1_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.792605] (tugas1_cpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.792779] (tugas1_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.802084] (-) TimerEvent: {}
+[0.902320] (-) TimerEvent: {}
+[0.997186] (tugas1_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.002427] (-) TimerEvent: {}
+[1.046811] (tugas1_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.054192] (tugas1_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.102576] (-) TimerEvent: {}
+[1.131726] (tugas1_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.158009] (tugas1_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.202706] (-) TimerEvent: {}
+[1.234757] (tugas1_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.294045] (tugas1_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.295907] (tugas1_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.297264] (tugas1_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.302804] (-) TimerEvent: {}
+[1.369148] (tugas1_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.369367] (tugas1_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.402967] (-) TimerEvent: {}
+[1.438285] (tugas1_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.438544] (tugas1_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.497391] (tugas1_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.497668] (tugas1_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.503064] (-) TimerEvent: {}
+[1.567987] (tugas1_cpp) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.569148] (tugas1_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.603176] (-) TimerEvent: {}
+[1.703411] (-) TimerEvent: {}
+[1.775057] (tugas1_cpp) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[1.775296] (tugas1_cpp) StderrLine: {'line': b"  ament_package_xml() package name 'tugas1_cpp' in '/package.xml' does not\n"}
+[1.775410] (tugas1_cpp) StderrLine: {'line': b"  match current PROJECT_NAME 'complex_cpp'.  You must call project() with the\n"}
+[1.775518] (tugas1_cpp) StderrLine: {'line': b'  same package name before.\n'}
+[1.775649] (tugas1_cpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.775778] (tugas1_cpp) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[1.775906] (tugas1_cpp) StderrLine: {'line': b'  CMakeLists.txt:35 (ament_package)\n'}
+[1.776043] (tugas1_cpp) StderrLine: {'line': b'\n'}
+[1.776173] (tugas1_cpp) StderrLine: {'line': b'\n'}
+[1.777450] (tugas1_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.777567] (tugas1_cpp) StdoutLine: {'line': b'See also "/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas1/build/tugas1_cpp/CMakeFiles/CMakeOutput.log".\n'}
+[1.777669] (tugas1_cpp) StdoutLine: {'line': b'See also "/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas1/build/tugas1_cpp/CMakeFiles/CMakeError.log".\n'}
+[1.784717] (tugas1_cpp) CommandEnded: {'returncode': 1}
+[1.804606] (-) TimerEvent: {}
+[1.877981] (tugas1_cpp) JobEnded: {'identifier': 'tugas1_cpp', 'rc': 1}
+[1.889006] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/install/strip.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/install.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/list_install_components.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/rebuild_cache.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/listener.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/talker2.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/install/local.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/talker1.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/edit_cache.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/test.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/tugas2_cpp_uninstall.dir
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp/CMakeFiles/uninstall.dir

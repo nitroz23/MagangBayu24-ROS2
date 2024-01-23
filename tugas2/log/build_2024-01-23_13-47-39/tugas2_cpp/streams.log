@@ -1,0 +1,45 @@
+[0.167s] Invoking command in '/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp -- -j8 -l8
+[0.213s] [35m[1mScanning dependencies of target talker1[0m
+[0.213s] [35m[1mScanning dependencies of target talker2[0m
+[0.235s] [ 33%] Built target listener
+[0.246s] [ 50%] [32mBuilding CXX object CMakeFiles/talker1.dir/src/pub1.cpp.o[0m
+[0.252s] [ 66%] [32mBuilding CXX object CMakeFiles/talker2.dir/src/pub2.cpp.o[0m
+[1.653s] [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub1.cpp:[m[K In member function ‘[01m[Kvoid RandomPublisher1::publishRandomBool()[m[K’:
+[1.653s] [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub1.cpp:31:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktime_point_cast<std::chrono::seconds>(rclcpp::Time&)[m[K’
+[1.653s]    31 |     auto seconds = std::chrono::time_point_cast<std::chrono::seconds>(now[01;31m[K)[m[K;
+[1.653s]       |                                                                          [01;31m[K^[m[K
+[1.653s] In file included from [01m[K/usr/include/c++/9/mutex:39[m[K,
+[1.653s]                  from [01m[K/usr/include/c++/9/future:38[m[K,
+[1.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[1.653s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.654s]                  from [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub1.cpp:1[m[K:
+[1.654s] [01m[K/usr/include/c++/9/chrono:684:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ToDur, class _Clock, class _Dur> constexpr typename std::enable_if<std::chrono::__is_duration<_Tp>::value, std::chrono::time_point<_Clock, _ToDur> >::type std::chrono::time_point_cast(const std::chrono::time_point<_Clock, _Dur>&)[m[K’
+[1.654s]   684 |       [01;36m[Ktime_point_cast[m[K(const time_point<_Clock, _Dur>& __t)
+[1.654s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[1.654s] [01m[K/usr/include/c++/9/chrono:684:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.654s] [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub1.cpp:31:74:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::time_point<_Clock, _Dur>[m[K’
+[1.654s]    31 |     auto seconds = std::chrono::time_point_cast<std::chrono::seconds>(now[01;36m[K)[m[K;
+[1.654s]       |                                                                          [01;36m[K^[m[K
+[1.666s] [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub2.cpp:[m[K In member function ‘[01m[Kvoid RandomPublisher2::publishRandomBool()[m[K’:
+[1.666s] [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub2.cpp:31:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktime_point_cast<std::chrono::seconds>(rclcpp::Time&)[m[K’
+[1.667s]    31 |     auto seconds = std::chrono::time_point_cast<std::chrono::seconds>(now[01;31m[K)[m[K;
+[1.667s]       |                                                                          [01;31m[K^[m[K
+[1.667s] In file included from [01m[K/usr/include/c++/9/mutex:39[m[K,
+[1.667s]                  from [01m[K/usr/include/c++/9/future:38[m[K,
+[1.667s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[1.667s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.668s]                  from [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub2.cpp:1[m[K:
+[1.668s] [01m[K/usr/include/c++/9/chrono:684:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ToDur, class _Clock, class _Dur> constexpr typename std::enable_if<std::chrono::__is_duration<_Tp>::value, std::chrono::time_point<_Clock, _ToDur> >::type std::chrono::time_point_cast(const std::chrono::time_point<_Clock, _Dur>&)[m[K’
+[1.668s]   684 |       [01;36m[Ktime_point_cast[m[K(const time_point<_Clock, _Dur>& __t)
+[1.668s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[1.668s] [01m[K/usr/include/c++/9/chrono:684:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.668s] [01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/src/tugas2_cpp/src/pub2.cpp:31:74:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::chrono::time_point<_Clock, _Dur>[m[K’
+[1.668s]    31 |     auto seconds = std::chrono::time_point_cast<std::chrono::seconds>(now[01;36m[K)[m[K;
+[1.669s]       |                                                                          [01;36m[K^[m[K
+[2.805s] make[2]: *** [CMakeFiles/talker1.dir/build.make:63: CMakeFiles/talker1.dir/src/pub1.cpp.o] Error 1
+[2.806s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/talker1.dir/all] Error 2
+[2.806s] make[1]: *** Waiting for unfinished jobs....
+[2.844s] make[2]: *** [CMakeFiles/talker2.dir/build.make:63: CMakeFiles/talker2.dir/src/pub2.cpp.o] Error 1
+[2.844s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/talker2.dir/all] Error 2
+[2.844s] make: *** [Makefile:141: all] Error 2
+[2.847s] Invoked command in '/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas2/build/tugas2_cpp -- -j8 -l8
