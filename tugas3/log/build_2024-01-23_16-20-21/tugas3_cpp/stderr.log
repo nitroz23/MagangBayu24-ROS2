@@ -1,0 +1,11 @@
+[01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/src/tugas3_cpp/src/pub.cpp:30:109:[m[K [01;31m[Kerror: [m[Ktoo many initializers for ‘[01m[Kdouble [13][m[K’
+   30 | 0, 6.28, 0.00, 4.00, 0.00, 6.28, 0.00, 4.00, 0.00, 6.28, 0.00, 2.00, 0.00[01;31m[K}[m[K;
+      |                                                                          [01;31m[K^[m[K
+
+[01m[K/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/src/tugas3_cpp/src/pub.cpp:31:110:[m[K [01;31m[Kerror: [m[Ktoo many initializers for ‘[01m[Kdouble [13][m[K’
+   31 | , 3.14, 0.52, 0.00, 0.52, 3.14, 0.52, 0.00, 0.52, 3.14, 0.52, 0.00, -0.52[01;31m[K}[m[K;
+      |                                                                          [01;31m[K^[m[K
+
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

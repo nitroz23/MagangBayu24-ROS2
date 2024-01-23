@@ -1,0 +1,16 @@
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/lib/tugas3_cpp/talker
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/ament_index/resource_index/package_run_dependencies/tugas3_cpp
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/ament_index/resource_index/parent_prefix_path/tugas3_cpp
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/environment/ament_prefix_path.sh
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/environment/ament_prefix_path.dsv
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/environment/path.sh
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/environment/path.dsv
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/local_setup.bash
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/local_setup.sh
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/local_setup.zsh
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/local_setup.dsv
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/package.dsv
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/ament_index/resource_index/packages/tugas3_cpp
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/cmake/tugas3_cppConfig.cmake
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/cmake/tugas3_cppConfig-version.cmake
+/home/llnitroz23ll/magangBayuROS/src/MagangBayu24-ROS2/tugas3/install/tugas3_cpp/share/tugas3_cpp/package.xml
