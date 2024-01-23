@@ -1,1 +1,1 @@
-![a](docs/Screenshot from 2024-01-23 00-27-51.png)
+![a](https://github.com/nitroz23/MagangBayu24-ROS2/blob/main/tugas1/docs/Screenshot%20from%202024-01-23%2000-27-51.png)
