@@ -10,7 +10,6 @@ public:
     equation_publisher_ = create_publisher<std_msgs::msg::String>("equation_topic", 10);
     timer_ = create_wall_timer(std::chrono::seconds(1), std::bind(&EquationPublisherNode::publish_equation, this));
 
-    // Seed for random number generation
     std::srand(std::time(0));
   }
 
@@ -29,7 +28,7 @@ private:
     float operand2 = static_cast<float>(std::rand() % 10000 + 1);
     float operand3 = static_cast<float>(std::rand() % 10000 + 1);
 
-    int operation1 = std::rand() % 5;  // 0: addition, 1: subtraction, 2: multiplication, 3: division, 4: modulus
+    int operation1 = std::rand() % 5; 
     int operation2 = std::rand() % 5;
 
     std::string equation;

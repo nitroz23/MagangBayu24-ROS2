@@ -16,7 +16,6 @@ private:
   {
     auto msg = std::make_unique<geometry_msgs::msg::Twist>();
     msg->linear.x = translasi[i];
-    // msg->linear.y = 0.0;
     msg->angular.z = rotasi___[i];
     publisher_->publish(std::move(msg));
     i = (i + 1) % (sizeof(translasi) / sizeof(translasi[0]));
@@ -26,7 +25,6 @@ private:
   rclcpp::TimerBase::SharedPtr timer_;
   size_t i;
 
-  // Declarations of translasi and rotasi___ arrays
   double translasi[13] = {2.00, 0.00, 6.28, 0.00, 4.00, 0.00, 6.28, 0.00, 3.90, 0.00, 6.28, 0.00, 2.00};
   double rotasi___[13] = {0.00, 0.52, 3.14, 0.52, 0.00, 0.52, 3.14, 0.52, 0.00, 0.52, 3.14, 0.52, 0.00};
 };
